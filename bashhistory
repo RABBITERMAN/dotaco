@@ -24,3 +24,6 @@
   398  curl -i http://127.0.0.1:5000 ; 
   399  git status
   401  rm dotaco/dotaco.py 
+  
+flask --debug --app  dotaco/dotaco.py run
+
