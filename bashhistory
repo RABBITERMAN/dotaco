@@ -1,0 +1,26 @@
+  328  gh repo clone rabbiterman/dotaco
+  329  cd dotaco
+  331  git status
+  333  git log
+  334  git add .
+  335  git status
+  336  git commit -m "README.md Created"
+  337  git pushhistory 
+  338  git log
+  346  python3 -m venv venv
+  347  source venv/bin/activate
+  348  pip freeze
+  349  pip install flask
+  351  touch bashhistory
+  352  geany bashhistory
+  361  cd ..
+  362  flask run
+  363  cd dotaco
+  365  touch test.py
+  366  geany test.py 
+  369  mv test.py app.py
+  395  sudo snap install curl
+  396  curl http://127.0.0.1:5000
+  398  curl -i http://127.0.0.1:5000 ; 
+  399  git status
+  401  rm dotaco/dotaco.py 
