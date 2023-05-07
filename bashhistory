@@ -14,7 +14,7 @@
   351  touch bashhistory
   352  geany bashhistory
   361  cd ..
-  362  flask run
+  362  flask --debug --app  dotaco/dotaco.py run
   363  cd dotaco
   365  touch test.py
   366  geany test.py 
@@ -25,4 +25,3 @@
   399  git status
   401  rm dotaco/dotaco.py 
   
-flask --debug --app  dotaco/dotaco.py run
