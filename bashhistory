@@ -7,8 +7,17 @@
   336  git commit -m "README.md Created"
   337  git pushhistory 
   338  git log
+  
+  apt install python3.10-venv
+  
   346  python3 -m venv venv
+  
   347  source venv/bin/activate
+  pip install -U pip
+pip install wheel
+
+pip install flask watchdog simplejson python-dotenv  gunicorn
+
   348  pip freeze
   349  pip install flask
   351  touch bashhistory
@@ -24,4 +33,12 @@
   398  curl -i http://127.0.0.1:5000 ; 
   399  git status
   401  rm dotaco/dotaco.py 
+  
+  pip freeze > requirement.txt
+  
+  pip install isort black
+  
+  pip freeze > requirement.dev.txt
+  
+  touch .flaskenv
   
